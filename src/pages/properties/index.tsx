@@ -117,10 +117,8 @@ export const Properties: FC<{}> = () => {
   };
 
   return (
-    <div className="block md:flex h-auto md:h-screen">
-      <div className="w-full md:w-2/4 p-10 md:border-r-2 md:border-red-500"
-         style={{ height: "fit-content" }}
-      >
+    <div className="block md:flex">
+      <div className="w-full md:w-2/4 p-10 md:border-r-2 md:border-red-500">
         <div className="font-extrabold text-4xl mb-10">Properties</div>
         <div className="w-full md:w-3/4">
           <TextInput
